@@ -1,0 +1,23 @@
+package latihan5_dip.good;
+
+// ABSTRACTION (Interface)
+public interface TransactionLogger {
+
+    // TODO: Uncomment dan implementasikan
+    /*
+     * Log transaction
+     * Implementasi bisa bermacam-macam:
+     * - Database logger
+     * - File logger
+     * - Cloud logger (AWS CloudWatch, Google Cloud Logging)
+     * - Mock logger for testing
+     *
+     * @param transactionId - Transaction ID
+     * @param amount - Transaction amount
+     * @param status - Transaction status (SUCCESS/FAILED)
+     */
+    /*
+    void log(String transactionId, double amount, String status);
+    */
+    void log(String transactionId, double amount, String status);
+}
